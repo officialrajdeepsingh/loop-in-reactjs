@@ -1,5 +1,6 @@
 {
-  "name": "react-interview",
+  "name": "loop-in-reactjs",
+  "description": "Loop in reactjs ",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

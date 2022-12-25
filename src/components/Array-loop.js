@@ -55,7 +55,7 @@ function ArrayLoop(props) {
 
             {results}
 
-            <h2> For loop directly use in react (It is not work ) </h2>
+            <h2 className='mt-2 text-center text-gray-800 text-2xl'> For loop directly use in react (It is not work ) </h2>
 
             {
                 data.forEach((item) => {
