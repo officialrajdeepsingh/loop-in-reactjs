@@ -1,25 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import ForLoop from './components/For-loop';
+import WhileLoop from './components/While-loop';
+import ArrayLoop from './components/Array-loop';
+import ArrayLoopWithComponent from './components/Arrayloopcomponent';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+export default function App() {
 
-export default App;
+  
+    return (
+        <>
+           <ForLoop/>
+           <WhileLoop />
+           <ArrayLoop />
+           <ArrayLoopWithComponent />
+        </>
+    )
+  }
+  
